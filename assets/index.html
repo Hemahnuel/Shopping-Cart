@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <title>shopping cart</title>
+</head>
+<style type="text/css">
+.cart {
+  margin:auto;
+  margin-top: 1px;
+  height: 500px;
+    width: 50%;
+    padding: 5px;
+    padding-top: 5px;
+    color: purple;
+  }
+  body {
+    background-color:moccasin;
+  }
+  .add {
+    margin-left: 350px;
+  }
+  .add:hover{
+    background-color: pink;
+  }
+  span {
+    margin-left: 200px;
+  }
+  form {
+    border: 0px solid purple;
+  }
+  .art {
+    height: 50px;
+    width: 100%;
+    margin-top: 0px;
+    margin-right: 337px;
+    background-color: purple;
+  }
+  input{
+    height: 100%;
+    width:5%;
+  }
+  .ola {
+    margin-bottom: 100px;
+    color: purple;
+  }
+  .col-md-2{
+    background-color: purple;
+    height: 900px;
+    }
+    .col-md-10{
+height: 900px;
+    }
+    .ema{
+      margin-bottom: 10px;
+    }
+    .war{
+      margin-top: -500px;
+    }
+    #bid{
+      color: seashell;
+    }
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Emmanuel</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+  <div class="row">
+    <div class="col-md-10">
+    <div class="cart">
+      <div class="art">
+      </div>
+      <div class="row">
+          <div class="col-md-10">
+      <form>
+        <p>Item name:T-shirt<span>  Quantity:<input type="number"></span></p>
+        <p>price:  #6000</p>
+        <button class="add">Add to cart</button>
+      </form><hr>
+      <form>
+        <p>Item name:Dress<span>  Quantity:<input type="number"></span></p>
+        <p>price:  #8000</p>
+        <button class="add">Add to cart</button>
+      </form><hr>
+      <form>
+        <p>Item name:Short<span>  Quantity: <input type="number"></span></p>
+        <p>price:  #4000</p>
+        <button class="add">Add to cart</button>
+      </form><hr>
+      <form>
+        <p>Item name:Jeans<span>  Quantity: <input type="number"></span></p>
+        <p class="pr">price:  #7000</p>
+        <button class="add">Add to cart</button>
+      </div>
+      </div>
+      </div>
+      <div>
+        <div class="war">
+        <div class="row">
+          <div class="col-md-2">
+            <h4 id="bid">Shopping cart</h4>
+              <img class="ema" src="./images/icon.png" alt="bag icon" width="100%;">
+              <button class="ola">View Shopping Cart</button>
+              </div>
+            </div>
+            </div>
+      </div>
+</body>
+</html>
